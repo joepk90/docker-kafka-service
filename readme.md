@@ -4,9 +4,13 @@ Apache Kafka Server using Bitnami Kafka and Zookeper images. Kafka UI is also se
 ## Kafka UI
 http://localhost
 
+## confluent cli
+An alternative kafak setup using Confluent CLI is available here:
+https://github.com/joepk90/docker-confluent-cli-server
+
 
 ## Notes;
-kafka scripts should be accessible once inide kafka container.
+kafka scripts should be accessible once inside kafka container. Use `kafka-shell` to login to the kafka container.
 
 location of kafka bash scripts:
 `/opt/bitnami/kafka/bin`
